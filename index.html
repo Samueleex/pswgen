@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Generatore di password</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>PSWGEN!</h1>
+      </header>
+      <div class="card">
+        <div class="card-header">
+          <h2>Inizia a generare!</h2>
+        </div>
+        <div class="card-body">
+          <textarea
+            readonly
+            id="password" 
+            placeholder="Campo del risultato"
+            aria-label="PSW GENERATA"
+          ></textarea> 
+          <!-- where generatePassword displays on the -->
+        </div>
+        <div class="card-footer">
+          <!-- line 2 of js -->
+          <button id="generate" class="btn">Genera password!</button> 
+        </div>
+      </div>
+    </div>
+    <script src="./script.js"></script>
+  <credit>
+    <h4>by Samueleex</h4>
+  </credit>
+  </body>
+</html>
